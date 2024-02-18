@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+// Importing individual components
+import 'bootstrap/dist/css/bootstrap.css';
+import FirstComponent from './componenets/FirstComponent';
+import FirstComponentWithProps from './componenets/FirstComponentWithProps';
+import FirstComponentWithPropsUsingDistructering from './componenets/FirstComponentWithPropsUsingDistructering';
+import FirtsComponentWithPropsUsignClass from './componenets/FirtsComponentWithPropsUsignClass';
+import FirstComponentWithChildrean from './componenets/FirstComponentWithChildrean';
+import FirstComponentWithChildreanUsingClass from './componenets/FirstComponentWithChildreanUsingClass';
+import Fruits from './jsx/fruits';
+import FirstComponentUsingState from './state/FirstComponentUsingState';
+import Event from './Events/Event';
+import ComponentForUseState from './Hooks/ComponentForUseState';
+import LifeCycleComponent from './LifeCyclesComponenet/LifeCycleComponent';
+import ComponetForUseEffect from './Hooks/ComponetForUseEffect';
+import ComponentForUseRef from './Hooks/ComponentForUseRef';
+import Page from './langugeSwitcher/page';
+import Form from './Forms/Form';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const fruits = []
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render();
