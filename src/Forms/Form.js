@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import  COLORS  from '../config/system-design/colors';
 export default function Form() {
     const [formValues, setFormValues] = useState({
         name: '',
@@ -25,7 +25,8 @@ export default function Form() {
              {JSON.stringify(formValues)}
         <div className="row mt-4">
             <div className="col-md-2"></div>
-            <div className="col-md-6">
+                <div className="col-md-6">
+                <h1 style={{ color: COLORS.primary }}>Formulaire</h1>
                 <form>
                     <div className="form-group" >
                         <label>Name:</label>
