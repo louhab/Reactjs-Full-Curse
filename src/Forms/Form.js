@@ -26,7 +26,7 @@ export default function Form() {
         <div className="row mt-4">
             <div className="col-md-2"></div>
                 <div className="col-md-6">
-                <h1 style={{ color: COLORS.primary }}>Formulaire</h1>
+                    <h1 style={{ color: COLORS.primary }}>Formulaire 1</h1>    
                 <form>
                     <div className="form-group" >
                         <label>Name:</label>
