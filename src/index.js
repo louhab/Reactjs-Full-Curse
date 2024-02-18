@@ -18,6 +18,7 @@ import ComponentForUseRef from './Hooks/ComponentForUseRef';
 import Page from './langugeSwitcher/page';
 import Form from './Forms/Form';
 import App from './Router/App';
+import CompnenetUseContext from './Hooks/ComponentUseContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const fruits = []
-root.render(<App/>);
+root.render(<CompnenetUseContext/>);
