@@ -1,0 +1,12 @@
+.blogs {
+    border: 2px solid #3498db; /* 2px width solid border with a blue color (#3498db) */
+    padding: 20px; /* Add some padding to the content inside the border */
+    width: 200px; 
+    margin : auto
+}
+.contact {
+    border: 2px solid #3498db; /* 2px width solid border with a blue color (#3498db) */
+    padding: 20px; /* Add some padding to the content inside the border */
+    width: 200px; 
+    margin : auto
+}

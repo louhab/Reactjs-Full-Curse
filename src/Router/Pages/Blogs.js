@@ -1,11 +1,13 @@
 import React from 'react';
 import Layouts from './Layouts';
-
+import '../GlobalStyle.css'
 function Blogs() {
     return (
         <div>
             <Layouts/>
-            hello from Blogs
+            <div className='blogs'>
+                hello from Blogs
+            </div>
         </div>
     );
 }

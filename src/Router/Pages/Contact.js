@@ -1,11 +1,13 @@
 import React from 'react';
 import Layouts from './Layouts';
-
+import '../GlobalStyle.css'
 function Contact() {
     return (
         <div>
             <Layouts/>
-            hello from contact
+            <div className="contact">
+                hello from contact
+            </div>
         </div>
     );
 }
