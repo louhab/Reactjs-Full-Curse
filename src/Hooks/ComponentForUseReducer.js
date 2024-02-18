@@ -13,11 +13,10 @@ function ComponentForUseReducer() {
     const [state, dispatch] = useReducer(reducer, initialState);
     return (
         <>
-                    {state.count} 
+                        {state.count} 
             <button onClick={()=>dispatch({type:'up'})}>Up</button>
             <button onClick={()=>dispatch({type:'down'})}>Down</button>
             <button onClick={()=>dispatch({type:'reset'})}>RESET</button>
-
         </>
     );
 }

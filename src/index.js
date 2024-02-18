@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App';
 // Importing individual components
 import 'bootstrap/dist/css/bootstrap.css';
 import FirstComponent from './componenets/FirstComponent';
@@ -17,9 +18,15 @@ import ComponetForUseEffect from './Hooks/ComponetForUseEffect';
 import ComponentForUseRef from './Hooks/ComponentForUseRef';
 import Page from './langugeSwitcher/page';
 import Form from './Forms/Form';
-import App from './Router/App';
+import AppOfRouter from './Router/AppOfRouter';
 import CompnenetUseContext from './Hooks/ComponentUseContext';
 import ComponentForUseReducer from './Hooks/ComponentForUseReducer';
+import ComponentUseCallBack from './Hooks/ComponentUseCallBack';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const fruits = []
-root.render(<ComponentForUseReducer/>);
+const fruits = [
+    'orange',
+    'banana',
+    'tofa7a',
+    'kiwiwi'
+]
+root.render(<App/>);

@@ -5,7 +5,7 @@ import Blogs from './Pages/Blogs';
 import Contact from './Pages/Contact';
 import PageNotFound from './Pages/PageNotFound';
 import './GlobalStyle.scss'
-function App() {
+function AppOfRouter() {
     return (
         <BrowserRouter>
             <h1 className="title">all route is here</h1>
@@ -19,4 +19,4 @@ function App() {
     );
 }
 
-export default App;
+export default AppOfRouter;
