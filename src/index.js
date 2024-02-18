@@ -22,6 +22,9 @@ import AppOfRouter from './Router/AppOfRouter';
 import CompnenetUseContext from './Hooks/ComponentUseContext';
 import ComponentForUseReducer from './Hooks/ComponentForUseReducer';
 import ComponentUseCallBack from './Hooks/ComponentUseCallBack';
+import ComponentToBeDisplayForRedux from './redux/ComponentToBeDisplayForRedux';
+import { Provider } from 'react-redux';
+import store from './redux/Store.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const fruits = [
     'orange',
@@ -29,4 +32,8 @@ const fruits = [
     'tofa7a',
     'kiwiwi'
 ]
-root.render(<App/>);
+root.render(
+    <Provider store={store}>
+        <ComponentToBeDisplayForRedux/>
+    </Provider>
+);
